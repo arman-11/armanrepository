@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap");
+/* CSS color variable */
+$primary-color: rgb(207, 56, 56);
+$secondary-color: rgb(179, 218, 233);
+$third-color: rgb(57, 197, 190);
+$fourth-color: rgb(113, 115, 230);
+$five-color: rgba(83, 56, 240, 0.904);
+$six-color: rgb(235, 133, 74);
+
+$Dark-cyan: hsl(185, 75%, 39%);
+$Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$Dark-grayish-blue: hsl(227, 10%, 46%);
+$Dark-gray: hsl(0, 0%, 59%);
+
+$Very-Dark-Magenta: hsl(300, 43%, 22%);
+$Soft-Pink: hsl(333, 80%, 67%);
+$Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+$Light-Grayish-Magenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+$fontrob: roboto, san-serif;
+$fontmnsrt: "Montserrat", sans-serif;
+$fontnnts: "Nunito Sans", sans-serif;
+
+@mixin navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+}
+
+@mixin flex-jcc-aic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
